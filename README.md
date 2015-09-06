@@ -1,6 +1,7 @@
 THE DOCK-FATHER for Raspberry Pi
 ==================================
-![Dock-Father L](pix/docker-father.png "Dock-Father")
+![Dock-Father](https://raw.github.com/Adamossenford/dock-father/master/pix/dock-father.png)
+
 
 Getting Started
 ===============
