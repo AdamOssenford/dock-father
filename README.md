@@ -15,7 +15,6 @@ Mac Users
 clone the repo and change into the new directory
 
 #####git clone https://github.com/AdamOssenford/dock-father.git
-run the following command
 Usage Examples
 ==============
 #####./dock-father.sh
