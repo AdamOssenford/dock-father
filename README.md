@@ -1,6 +1,6 @@
 THE DOCK-FATHER for Raspberry Pi
 ==================================
-![Dock-Father ](pix/docker-father.png "Dock-Father")
+![Dock-Father L](pix/docker-father.png "Dock-Father")
 
 Getting Started
 ===============
