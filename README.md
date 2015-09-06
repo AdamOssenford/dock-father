@@ -28,7 +28,7 @@ Thank You
 =========
 The following is a list of contributors, inspirations, code examples, and developers who assisted in making this possible
 
-* [!Rick Bryce the Ansible Jedi](http://www.github.com/dicbob)
-* [!Hypriot](http://blog.hypriot.com)
-* [!dontrebootme](http://www.github.com/dontrebootme)
+* [Rick Bryce the Ansible Jedi](http://www.github.com/dicbob)
+* [Hypriot](http://blog.hypriot.com)
+* [dontrebootme](http://www.github.com/dontrebootme)
 
