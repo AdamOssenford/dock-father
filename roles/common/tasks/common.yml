@@ -1,0 +1,17 @@
+---
+# tasks file for common
+- name: Install some packages
+  apt: name={{ item }} update_cache=yes
+  with_items:
+     - python-dev
+     - python-pip
+     - htop
+     - iftop
+     - sysstat
+     - bc
+     - figlet
+     - vim
+     - lsof
+     - make
+     - openssl
+     - nmap

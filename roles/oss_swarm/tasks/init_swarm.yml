@@ -1,0 +1,15 @@
+- service: name=docker state=restarted
+- shell: docker rm swarm-manager
+  when: "'master' in ansible_hostname"
+  ignore_errors: yes
+
+- shell: docker rm swarm-agent
+  when: "'master' not in ansible_hostname"
+  ignore_errors: yes
+
+- shell: ip -f inet addr show dev eth0|grep inet|awk '{print $2}'|sed -e 's#/.*##'
+  register: master_ip
+
+#- name: Print my_token
+#  debug: msg="Swarm Token {{ my_swarm_token }}"
+#  when: "'master' in ansible_hostname"

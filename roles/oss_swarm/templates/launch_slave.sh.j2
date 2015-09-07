@@ -1,0 +1,4 @@
+docker run --name="swarm-agent" \
+   -d adamoss/rpi-swarm join \
+   --addr=`ip -f inet addr show dev eth0|grep inet|awk '{print $2}'|sed -e 's#/.*##'`:2375 \
+   token://${{ my_swarm_token }}

@@ -1,0 +1,10 @@
+- template: src=launch_master.sh.j2 dest=/root/launch_master.sh owner=root mode=0700
+- name: Launch Swarm Master for Docker
+  shell: /root/launch_master.sh
+# shell: docker run -d --name=swarm-manager -p 3456:2375 adamoss/rpi-swarm manage token://{{ my_swarm_token }}
+# FINISH ME PLEASE
+#  docker:
+#    name: oss-swarm
+#    image: adamoss/rpi-swarm
+#    docker_api_version: 1.20
+#    command: --name=swarm-manager -p 3456:2375 adamoss/rpi-swarm manage token://{{ my_token.stdout }}

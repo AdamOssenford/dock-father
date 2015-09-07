@@ -8,20 +8,28 @@ Getting Started
 
 DEPENDENCIES
 
-You will need to have ansible installed.  
-Mac Users
-#####brew install ansible
+* This assumes you have flashed your raspberry pi with the [Hypriot flash tool](https://github.com/hypriot/flash)
 
-clone the repo and change into the new directory
+* You will need to add the names you used in the flash tool to the file nodenames.txt.  currently it has 4 entries which are master, node1, node2, node3.  Make sure you follow this name convention when using dockfather.  Add nodes as you wish to scale the cluster
+
+* You will need to have ansible installed.  
+* Mac Users
+#####brew install ansible
+* Non mac users [VISIT ANSIBLE](http://docs.ansible.com/ansible/intro_installation.html)
+
+* clone the repo and change into the new directory
 
 #####git clone https://github.com/AdamOssenford/dock-father.git
 Usage Examples
 ==============
+* bootstrap your raspberry pi2 and launch a swarm cluster
 #####./dock-father.sh
+* launch a swarm cluster only
+#####./swarm-only.sh
 
-The Reason for the Dock-Father
+About the Dock-Father
 ==============================
-This script was written to make it easy enough for anyone to go from fresh hypriot install on Raspberry pi2 to running a docker-swarm as easy as possible
+This script was written to make it easy enough for anyone to go from fresh hypriot install on Raspberry pi2 to running a docker-swarm as easy as possible.  This script should populate the Ansible inventory file based off the .local dns and then run the installation of packages, upgrade docker to 1.8.1 and start a swarm cluster.  
 
 Thank You 
 =========
@@ -30,4 +38,5 @@ The following is a list of contributors, inspirations, code examples, and develo
 * [The Ansible Jedi](http://www.github.com/dicbob)
 * [Hypriot](http://blog.hypriot.com)
 * [dontrebootme](http://www.github.com/dontrebootme)
-
+* [SecKC](http://www.seckc.org)
+* [Ansible](http://www.ansible.com)

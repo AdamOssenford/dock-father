@@ -1,0 +1,6 @@
+---
+- template: src=launch_slave.sh.j2 dest=/root/launch_slave.sh owner=root mode=0700
+- name: Launch Agent Node for Docker
+  shell: /root/launch_slave.sh
+#- name: Launch Swarm Master for Docker
+#  shell: docker run --name="swarm-agent" -d adamoss/rpi-swarm join --addr=`ip -f inet addr show dev eth0|grep inet|awk '{print $2}'|sed -e 's#/.*##'`:2375 token://$"{{ my_swarm_token }}"

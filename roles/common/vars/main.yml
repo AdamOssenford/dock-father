@@ -1,0 +1,4 @@
+---
+# vars file for bootstrap-pi2
+docker_latest: http://downloads.hypriot.com/docker-hypriot_1.8.1-1_armhf.deb
+docker_local_store: /root/docker-latest.deb

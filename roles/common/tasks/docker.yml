@@ -1,0 +1,4 @@
+---
+#Update docker config
+- name: Update docker config
+  template: src=docker.j2 dest=/etc/default/docker owner=root group=root mode=0644

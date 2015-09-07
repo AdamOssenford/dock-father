@@ -1,0 +1,9 @@
+---
+- name: create /etc/motd
+  template: src=gen_motd_ubuntu.sh.j2 dest=/etc/profile.d/gen_motd_ubuntu.sh owner=root group=root mode=0755
+
+- name: create maint notice file
+  copy: src=sys_maint dest=/etc/sys_maint owner=root group=root mode=0644
+
+- name: create jq for ARM
+  copy: src=jq dest=/usr/local/bin/jq owner=root group=root mode=0755

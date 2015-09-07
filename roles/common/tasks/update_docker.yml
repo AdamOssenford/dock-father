@@ -1,0 +1,10 @@
+---
+#Update docker to latest version
+- name: stop running docker service
+  service: name=docker state=stopped
+- name: get latest docker package from hypriot
+  get_url: url="{{ docker_latest }}" dest="{{ docker_local_store }}" validate_certs=no
+- name: install latest docker
+  apt: deb="{{ docker_local_store }}" 
+- name: remove docker install file
+  file: path="{{ docker_local_store }}" state=absent

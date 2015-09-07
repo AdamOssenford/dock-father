@@ -1,0 +1,4 @@
+---
+- name: create masterdock command on master
+  copy: src=masterdock dest=/usr/bin/masterdock owner=root group=root mode=0755
+  when: "'master' in ansible_hostname"

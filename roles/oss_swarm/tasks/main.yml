@@ -1,0 +1,7 @@
+---
+# tasks file for oss_swarm
+- include: init_swarm.yml
+- include: master_tasks.yml
+  when: "'master' in ansible_hostname"
+- include: slave_tasks.yml
+  when: "'node' in ansible_hostname"

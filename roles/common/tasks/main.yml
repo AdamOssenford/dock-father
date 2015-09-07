@@ -1,0 +1,9 @@
+---
+- include: common.yml
+- include: update_docker.yml
+- include: motd.yml
+- include: boot_config.yml
+- include: docker.yml
+- include: update_pubkey.yml
+- include: master_dock.yml
+- include: compose.yml

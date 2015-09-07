@@ -1,0 +1,4 @@
+---
+# COPY files/public_key.txt to /home/pi/.ssh/authorized_keys
+- file: path=/home/pi/.ssh state=directory mode=0755
+- copy: src=public_key.txt dest=/home/pi/.ssh/authorized_keys owner=root group=root mode=0644
