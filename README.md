@@ -23,11 +23,12 @@ brew install ansible
 git clone https://github.com/AdamOssenford/dock-father.git
 cd dock-father
 ```
-* OPTIONAL - INSTALL sshpass TO AVOID TYPING RASPBERRY
+* OPTIONAL - install sshpass to avoid typing raspberry
 ```
 brew install http://git.io/sshpass.rb
 ```
-* OPTIONAL - ADD YOUR PUBLIC KEY TO roles/common/files/public_key.txt 
+* OPTIONAL - add your public key to the file roles/common/files/public_key.txt 
+
 Usage Examples
 ==============
 * bootstrap your raspberry pi2 and launch a swarm cluster
