@@ -53,3 +53,4 @@ TO DO
 * this needs to be setup with TLS and certificates
 * in the docs directory is a script that shows all commands to generate the certificates needed to run the swarm of TLS
 * ports will most likely change to 2376 to reflect TLS
+* the dockeropts file /etc/default/docker did not handle the docker launch with the TLS certs.  The startup scripts will have to be recreated and possibly deployed via the ansible role for swarm
