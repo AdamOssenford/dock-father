@@ -23,6 +23,7 @@ brew install ansible
 git clone https://github.com/AdamOssenford/dock-father.git
 cd dock-father
 ```
+* ADD YOUR PUBLIC KEY TO roles/common/files/public_key.txt 
 Usage Examples
 ==============
 * bootstrap your raspberry pi2 and launch a swarm cluster
