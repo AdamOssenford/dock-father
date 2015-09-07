@@ -21,6 +21,7 @@ brew install ansible
 * clone the repo and change into the new directory
 ```
 git clone https://github.com/AdamOssenford/dock-father.git
+cd dock-father
 ```
 Usage Examples
 ==============
