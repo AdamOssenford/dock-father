@@ -10,5 +10,4 @@
   - vars/master_ip.yml
   - roles/oss_swarm/vars/main.yml
   roles:
-#  - common
   - oss_swarm
