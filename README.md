@@ -14,19 +14,23 @@ DEPENDENCIES
 
 * You will need to have ansible installed.  
 * Mac Users
-```brew install ansible
+```
+brew install ansible
 ```
 * Non mac users [VISIT ANSIBLE](http://docs.ansible.com/ansible/intro_installation.html)
 * clone the repo and change into the new directory
-```git clone https://github.com/AdamOssenford/dock-father.git
+```
+git clone https://github.com/AdamOssenford/dock-father.git
 ```
 Usage Examples
 ==============
 * bootstrap your raspberry pi2 and launch a swarm cluster
-```./dock-father.sh
+```
+./dock-father.sh
 ```
 * launch a swarm cluster only
-```./swarm-only.sh
+```
+./swarm-only.sh
 ```
 
 About the Dock-Father
