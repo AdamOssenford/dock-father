@@ -35,7 +35,7 @@ Usage Examples
 ```
 ./dock-father.sh
 ```
-* launch a swarm cluster only
+* launch a swarm cluster only (only works after running dockfather)
 ```
 ./swarm-only.sh
 ```
