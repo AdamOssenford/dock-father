@@ -46,3 +46,9 @@ The following is a list of contributors, inspirations, code examples, and develo
 * [dontrebootme](http://www.github.com/dontrebootme)
 * [SecKC](http://www.seckc.org)
 * [Ansible](http://www.ansible.com)
+
+TO DO
+=======
+* this needs to be setup with TLS and certificates
+* in the docs directory is a script that shows all commands to generate the certificates needed to run the swarm of TLS
+* ports will most likely change to 2376 to reflect TLS
