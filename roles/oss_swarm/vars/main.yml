@@ -5,4 +5,5 @@
 # export TOKEN=$(for i in $(seq 1 32); do echo -n $(echo "obase=16; $(($RANDOM % 16))" | bc); done; echo)
 # OR docker run -rm adamoss/rpi-swarm create
 # UNTIL YOU FIGURE THAT OUT USE THE HARDCODED VERSION BELOW
-my_swarm_token: 5c6d73d9107fdf36a3043474ffa403d4
+#my_swarm_token: 5c6d73d9107fdf36a3043474ffa403d4
+my_swarm_token: babb1eb00bdecadedec0debabb1eb00b
