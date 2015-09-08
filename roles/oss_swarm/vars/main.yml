@@ -6,4 +6,4 @@
 # OR docker run -rm adamoss/rpi-swarm create
 # UNTIL YOU FIGURE THAT OUT USE THE HARDCODED VERSION BELOW
 #my_swarm_token: 5c6d73d9107fdf36a3043474ffa403d4
-my_swarm_token: babb1eb00bdecadedec0debabb1eb00b
+my_swarm_token: b00b1eb00bdecadedec0debabb1eb00b
