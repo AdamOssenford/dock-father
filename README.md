@@ -46,7 +46,8 @@ This script was written to make it easy enough for anyone to go from fresh hypri
 
 Dock-Father in action
 ==============================
-[Watch My Docker Raspberry Pi Talk on Dock-Father](https://www.youtube.com/watch?v=yPDp6KCxNEY)
+Watch My Docker Raspberry Pi Talk on Dock-Father
+[![ScreenShot](https://raw.githubusercontent.com/AdamOssenford/dock-father/master/pix/dockfather-talk.png)](https://www.youtube.com/watch?v=yPDp6KCxNEY)
 
 Thank You 
 =========
