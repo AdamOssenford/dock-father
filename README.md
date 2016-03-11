@@ -61,6 +61,7 @@ The following is a list of contributors, inspirations, code examples, and develo
 
 TO DO
 =======
+* update to new versions of docker using hypriot packages
 * this needs to be setup with TLS and certificates
 * in the docs directory is a script that shows all commands to generate the certificates needed to run the swarm of TLS
 * ports will most likely change to 2376 to reflect TLS
