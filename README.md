@@ -44,6 +44,10 @@ About the Dock-Father
 ==============================
 This script was written to make it easy enough for anyone to go from fresh hypriot install on Raspberry pi2 to running a docker-swarm as easy as possible.  This script should populate the Ansible inventory file based off the .local dns and then run the installation of packages, upgrade docker to 1.8.1 and start a swarm cluster.  
 
+Dock-Father in action
+==============================
+[Watch My Docker Raspberry Pi Talk on Dock-Father](https://www.youtube.com/watch?v=yPDp6KCxNEY)
+
 Thank You 
 =========
 The following is a list of contributors, inspirations, code examples, and developers who assisted in making this possible
